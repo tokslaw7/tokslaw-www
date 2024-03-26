@@ -53,7 +53,7 @@ const Contact = () => {
             get <span>in touch</span>
           </h2>
           <span className="title-head-subtitle">
-            I’m always open to discussing product design work or partnerships.
+            I’m always open to discussing product architecture / design work or partnerships.
           </span>
         </div>
         {/* Main Heading Ends */}
@@ -67,7 +67,7 @@ const Contact = () => {
                     {" "}
                     <span className="contact-title">Phone</span>
                     <i className="fa fa-whatsapp" />
-                    <span className="contact-content">+216 21 184 010</span>
+                    <span className="contact-content">404 203-8915</span>
                   </h6>
                 </li>
                 <li>
@@ -75,21 +75,21 @@ const Contact = () => {
                     {" "}
                     <span className="contact-title">email</span>
                     <i className="fa fa-envelope-o fs-14" />
-                    <span className="contact-content">info@daria.ua</span>
+                    <span className="contact-content">tokunbolawal4@gmail.com</span>
                   </h6>
                 </li>
                 <li>
                   <h6 className="font-weight-600">
                     <span className="contact-title">instagram</span>
                     <i className="fa fa-instagram" />
-                    <span className="contact-content">daria.198</span>
+                    <span className="contact-content">tokslawdev</span>
                   </h6>
                 </li>
                 <li>
                   <h6 className="font-weight-600">
-                    <span className="contact-title">Dribbble </span>
+                    <span className="contact-title">Linkedln </span>
                     <i className="fa fa-dribbble" />
-                    <span className="contact-content">daria.dribble</span>
+                    <span className="contact-content">linkedin/in/toks-lawal</span>
                   </h6>
                 </li>
               </ul>
@@ -98,22 +98,22 @@ const Contact = () => {
                 <h6 className="font-weight-600 uppercase">Social Profiles</h6>
                 <ul className="list-inline social social-intro text-center p-none">
                   <li className="facebook">
-                    <a title="Facebook" href="#">
+                    <a title="Facebook" href={process.env.REACT_APP_FACEBOOK_LINK}>
                       <i className="fa fa-facebook" />
                     </a>
                   </li>
                   <li className="twitter">
-                    <a title="Twitter" href="#">
+                    <a title="Twitter" href={process.env.REACT_APP_TWITTER_LINK}>
                       <i className="fa fa-twitter" />
                     </a>
                   </li>
                   <li className="youtube">
-                    <a title="Youtube" href="#">
+                    <a title="Youtube" href={process.env.REACT_APP_YOUTUBE_LINK}>
                       <i className="fa fa-youtube" />
                     </a>
                   </li>
-                  <li className="dribbble">
-                    <a title="Dribbble" href="#">
+                  <li className="linkedln">
+                    <a title="Linkedln" href={process.env.REACT_APP_LINKEDIN_LINK}>
                       <i className="fa fa-dribbble" />
                     </a>
                   </li>

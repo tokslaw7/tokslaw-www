@@ -59,7 +59,7 @@ const blog = () => {
                       <a href="blog-post.html">18</a>
                     </span>
                     <span>
-                      <i className="fa fa-tags" /> js, php, html
+                      <i className="fa fa-tags" />  php, react, js, nodejs, html
                     </span>
                     <span className="permalink">
                       <i className="fa fa-link" />{" "}

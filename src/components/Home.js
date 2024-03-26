@@ -31,9 +31,10 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           <h3>Hi there !</h3>
           <AnimationText />
           <p>
-            {`I'm`} a Freelance UI/UX Designer and Developer based in London,
-            England. I strives to build immersive and beautiful web applications
-            through carefully crafted code and user-centric design.
+            {`I'm`}  an Enterprise Architect and Developer based in Atlanta,
+            USA. I build immersive infrastructure,microservice
+            applications and architecture through carefully crafted code and user-centric
+            solution.
           </p>
           <div className="call-to-actions-home">
             <div className="text-left">

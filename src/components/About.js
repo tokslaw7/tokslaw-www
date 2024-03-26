@@ -10,7 +10,7 @@ const About = () => {
           about <span>me</span>
         </h2>
         <span className="title-head-subtitle">
-          I design and code beautiful things, and I love what I do.
+          I develop, design and code solutions, and I love what I do.
         </span>
       </div>
       {/* Main Heading Ends */}
@@ -21,15 +21,15 @@ const About = () => {
             <div className="image-container">
               <img
                 className="img-fluid d-block"
-                src="img/dark-about.jpg"
+                src="img/toks.png"
                 alt=""
               />
             </div>
             <p className="d-block d-md-none">
-              {`I'm`} a Freelance UI/UX Designer and Developer based in London,
-              England. I strives to build immersive and beautiful web
-              applications through carefully crafted code and user-centric
-              design.
+              {`I'm`} a Enterprise Architect and Developer based in Atlanta,
+              USA. I build immersive infrastructure,microservice
+              applications and architecture through carefully crafted code and user-centric
+              solution.
             </p>
           </div>
           <div className="row col-xl-6 col-lg-6 col-md-12">
@@ -38,36 +38,36 @@ const About = () => {
                 <li>
                   <h6>
                     <span className="font-weight-600">First Name</span>
-                    Daria
+                    Toks
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className="font-weight-600">Last Name</span>
-                    Taylor
+                    Lawal
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Birthdate</span>21 june
-                    1990
+                    <span className="font-weight-600">Birthdate</span>07 July
+                    {/*1987*/}
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className="font-weight-600">Nationality</span>
-                    English
+                    American
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Experience</span>7 years
+                    <span className="font-weight-600">Experience</span>8 years
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className="font-weight-600">Address</span>
-                    Istanbul
+                    Atlanta
                   </h6>
                 </li>
               </ul>
@@ -82,32 +82,31 @@ const About = () => {
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Langages</span>
+                    <span className="font-weight-600">Languages</span>
                     English
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Phone</span>+34 21 18 40
-                    10
+                    <span className="font-weight-600">Phone</span>404 203-8915
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Email</span>
-                    you@you.com
+                    <span className="font-weight-600" href={process.env.REACT_APP_SUPPORT_EMAIL}>Email</span>
+                    tokunbolawal4@gmail.com
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className="font-weight-600">Skype</span>
-                    daria.taylor
+                    tokunbo.lawal1
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Dribbble</span>
-                    taylor.dribbble
+                    <span className="font-weight-600">Linkedln</span>
+                    linkedin/in/toks-lawal
                   </h6>
                 </li>
               </ul>
@@ -147,19 +146,20 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2017 - 2019
+                        2023 - Present
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        web designer
+                        snr. software developer
                         <span className="separator" />
-                        <span className="font-weight-700">Envato</span>
+                        <span className="font-weight-700">MyFit.ai</span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        Architecture Change Management and Product design activities follow TOGAF ADM.
+                        Initial Development planning - Ubuntu server set up, web server configuration. Containers set and documentation.
+                        Demonstration and proof of concept development - take steps to derive concept planning to implementation roadmap.
+                        Hybrid app development collaboration with product team and iOS & Android store deployment.
                       </p>
                     </div>
                   </div>
@@ -173,19 +173,20 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2014 - 2017
+                        2021 - 2023
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        web developer
+                        php developer
                         <span className="separator" />
-                        <span className="font-weight-700">Twitter</span>
+                        <span className="font-weight-700">Intralot</span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        Developed and maintained complex PHP-based web applications for INTRALOT's digital platform for lottery gaming operations,
+                        contributing to a 15% increase in website performance and a 20% reduction in load times,
+                        resulting in an improved user experience for millions of lottery players
+                        Collaborated with a cross-functional team to deliver and implement software applications, specialized utility programs
                       </p>
                     </div>
                   </div>
@@ -199,19 +200,20 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2010 - 2014
+                        2016 - 2021
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Consultant
+                        Developer,Product Owner <span>& Architect</span>
                         <span className="separator" />
-                        <span className="font-weight-700">Google</span>
+                        <span className="font-weight-700">ChiefSoft Works</span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        Utilized Entity Framework to successfully implement robust and efficient web service APIs,
+                        ensuring seamless integration and optimal performance within the system infrastructure.
+                        Provided technical oversight to previously developed and approved architectural solutions;
+                        drove innovation, developed, and reviewed the program and project level architectures
                       </p>
                     </div>
                   </div>
@@ -234,21 +236,21 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2007 - 2010
+                        2008 - 2012
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Engineering Degree
+                        Computer Science Degree
                         <span className="separator" />
                         <span className="font-weight-700">
-                          Istanbul University
+                          Yaba College of Technology
                         </span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        Website Development (PHP) , Mobile Application Development , Database Design and Management,
+                        Client-Side Scripting Language and Tools, Data Warehousing,  Data Structure & Algorithm, System Analysis and Development life-cycle
+                        C/C#/C++, FORTRAN and COBOL Programming.Hardware/Software Troubleshooting.
                       </p>
                     </div>
                   </div>
@@ -262,21 +264,21 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2005 - 2007
+                        2021 - Present
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Masters Degree
+                        Associates Degree
                         <span className="separator" />
                         <span className="font-weight-700">
-                          Paris University
+                          Ivy Tech Community College
                         </span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        Information Security Management.Information Technology · Jenkins · Integration · Linux · Metasploit · Middleware · Network Security
+                        Risk Management · Security Management · Security Operations · Security+ · Software Development · Project Management · Agile Project Management
+                        Computing logic · Digital Forensics · Mobile Applications.
                       </p>
                     </div>
                   </div>
@@ -290,21 +292,21 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2001 - 2005
+                        2021 - 2021
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Bachelor Degree
+                        Certification Degree
                         <span className="separator" />
                         <span className="font-weight-700">
-                          Moscow High School
+                          Military Career Academy
                         </span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        Risk management, network and security components and architecture, implementing advanced authentication and cryptographic techniques,
+                        implementing security for systems, applications, and storage, implementing security for cloud and virtualization technologies,
+                        and utilizing security assessments and incident response.
                       </p>
                     </div>
                   </div>
@@ -324,7 +326,7 @@ const About = () => {
             </div>
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">html</span>
+              <span className="skill-text">php</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -340,7 +342,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">javascript</span>
+              <span className="skill-text">react</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -356,7 +358,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">css</span>
+              <span className="skill-text">javascript</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -372,7 +374,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">jquery</span>
+              <span className="skill-text">nodejs</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -420,7 +422,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">illustrator</span>
+              <span className="skill-text">docker</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -436,7 +438,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">after effects</span>
+              <span className="skill-text">css</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -452,7 +454,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">photoshop</span>
+              <span className="skill-text">html</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"

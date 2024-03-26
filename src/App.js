@@ -20,15 +20,14 @@ import ColorState from "../src/context/colorState";
 import NavState from "../src/context/navState";
 import PreLoader from "../src/layouts/PreLoader";
 import './App.css';
-//import logo from './Tokslaw.png';
+import logo from './Tokslaw.png';
 import "../styles/globals.css";
 
 function App({ Component, pageProps }) {
   return (
     <Fragment>
     <Head>
-      
-      <title> Personal Portfolio</title>
+      <title> Tokslaw Portfolio</title>
     </Head>
     <NavState>
       <ColorState>

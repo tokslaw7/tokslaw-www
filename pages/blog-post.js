@@ -6,7 +6,7 @@ const BlogPost = () => {
         <div className="container-fluid page-title post-title">
           <div className="content-banner">
             <h2 className="text-center">
-              <span>how to be a successful freelancer</span>
+              <span>how to be build a web server</span>
             </h2>
             <div className="meta">
               <span>
