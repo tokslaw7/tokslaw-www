@@ -9,7 +9,7 @@ const Work = dynamic(() => import("../src/components/Work"), {
 });
 const Index = () => {
   return (
-    <Layouts bodyCls={"dark fullscreendark"}>
+    <Layouts bodyCls={"dark fullscreendark2"}>
       {/* Back To Home Ends [ONLY MOBILE] */}
       {/* Home Section Starts */}
       <Home />

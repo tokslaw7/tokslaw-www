@@ -112,10 +112,10 @@ const About = () => {
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a href="#" className="btn btn-resume">
+              <a href="img/Tokunbo Lawal_Resume.pdf" className="btn btn-resume">
                 <span>
                   <i className="fa fa-download" />
-                  download my cv
+                  download my resume
                 </span>
               </a>
             </div>
