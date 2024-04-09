@@ -3,7 +3,7 @@ import NavContext from "../context/navContext";
 import BlogPopup from "./BlogPopup";
 const data = [
   {
-    title: "create a wordpress theme from scratch",
+    title: "Build a webserver",
     img: "img/blog/blog-post-1.jpg",
     tag: "Branding",
     date: { date: "23", month: "jun", year: "2021" },
@@ -14,7 +14,7 @@ const data = [
     ],
   },
   {
-    title: "Effective Marketing Strategy tips",
+    title: "Apache Kafka tips",
     img: "img/blog/blog-post-2.jpg",
     tag: "Design",
     date: { date: "23", month: "jun", year: "2021" },
@@ -25,7 +25,7 @@ const data = [
     ],
   },
   {
-    title: "free psd and sketch ressouces",
+    title: "Microservice Architecture ressouces",
     img: "img/blog/blog-post-3.jpg",
     tag: "Media",
     date: { date: "23", month: "jun", year: "2021" },

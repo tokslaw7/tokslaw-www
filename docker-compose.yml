@@ -6,9 +6,9 @@ services:
       dockerfile: docker/Dockerfile
     restart: unless-stopped
     ports:
-      - 1988:3000
+      - 1987:3000
      # - 3800:3011
-   # working_dir: /usr/src/app
+    working_dir: /usr/src/app
     environment:
       - CHOKIDAR_USEPOLLING=true
    # volumes:

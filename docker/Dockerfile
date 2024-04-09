@@ -117,19 +117,21 @@ RUN apk add --no-cache --virtual .build-deps-yarn curl gnupg tar \
 # COPY docker-entrypoint.sh /usr/local/bin/
 # ENTRYPOINT ["docker-entrypoint.sh"]
 
-# CMD [ "node" ]
+  CMD [ "node" ]
+WORKDIR /usr/src/app
 
+COPY . /usr/src/app
 
 # install app dependencies
-COPY package.json ./
+COPY package.json /usr/src/app
 #COPY package-lock.json ./
-RUN npm install 
+RUN npm install
 #--silent
 # RUN npm install react-scripts@3.4.1 -g --silent
-# RUN npm install -g npm@10.5.0
+RUN npm install -g npm@10.5.0
 
 # add app
-COPY . ./
+COPY . /usr/src/app
 
 # start app
 CMD ["npm", "run", "dev"]

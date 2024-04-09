@@ -14,13 +14,14 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
       : "dark fullscreendark";
   }, []);
   const { changeMobileMenu, mobileMenu } = useContext(NavContext);
-  const { color } = useContext(ColorContext);
+  const { color } =  useContext(ColorContext); //"orange";
   const { width } = useWindowSize();
   useEffect(() => {
     if (width > 1025) {
       changeMobileMenu(false);
     }
   }, [width]);
+ // debugger;
   return (
     <Fragment>
       <Head>
@@ -33,7 +34,7 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
         <title>Tokslaw</title>
       </Head>
       <div className="page animated" style={{ animationDuration: "500ms" }}>
-        <Switcher />
+        {/*<Switcher />*/}
         {/* Header Starts */}
         {!extraPage && <Header light={light} />}
         {/* Main Content Starts */}{" "}

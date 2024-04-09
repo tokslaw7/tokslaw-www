@@ -74,7 +74,7 @@ const blog = () => {
               {/* Article Starts */}
               <article>
                 <a href="blog-post.html">
-                  <h4>Collaborating with envato</h4>
+                  <h4>Apache Kafka</h4>
                 </a>
                 {/* Figure Starts */}
                 <figure className="blog-figure">
